@@ -23,6 +23,5 @@ for market in json.loads(ret)["Markets"]:
 				"Time" : str(datetime.datetime.now())
 		}
 		post_id = hist.insert_one(entry)
-		#entry['']
 
 print("Data Collected at %s" % str(datetime.datetime.now()) )
